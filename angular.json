@@ -36,6 +36,7 @@
           },
           "configurations": {
             "production": {
+              "baseHref": "/SpikeOnIt/",
               "budgets": [
                 {
                   "type": "initial",
