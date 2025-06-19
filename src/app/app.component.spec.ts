@@ -20,10 +20,11 @@ describe('AppComponent', () => {
     expect(app.title).toEqual('spike-on-it-app');
   });
 
-  it('should render title', () => {
+  it('should render navigation', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, spike-on-it-app');
+    expect(compiled.querySelector('nav')?.textContent).toContain('Index');
+    expect(compiled.querySelector('nav')?.textContent).toContain('Retro');
   });
 });
