@@ -42,3 +42,22 @@ The application includes a simple navigation bar with:
 - "Retro" link (navigates to /retro)
 
 Both pages display exactly the same content: a header with "Spike On It" text.
+
+## Screenshots
+
+The following screenshots demonstrate the running application:
+
+### Index Page Screenshot
+![Index Page](screenshots/index-page.png)
+- Shows the Index page with "Spike On It" header
+- Navigation bar at the top with Index | Retro links
+
+### Retro Page Screenshot  
+![Retro Page](screenshots/retro-page.png)
+- Shows the Retro page with "Spike On It" header
+- Navigation bar at the top with Index | Retro links
+
+Both screenshots confirm the application is running correctly with:
+- Proper navigation between pages
+- Consistent "Spike On It" header on both pages
+- Clean, minimal interface as requested
