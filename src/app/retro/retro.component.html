@@ -1,1 +1,14 @@
 <h1>Spike On It</h1>
+
+<div *ngIf="description">
+  <h2>Session Description:</h2>
+  <p>{{ description }}</p>
+</div>
+
+<div *ngIf="!description && sessionCode">
+  <p>No description found for session: {{ sessionCode }}</p>
+</div>
+
+<div *ngIf="!sessionCode">
+  <p>No session code provided.</p>
+</div>
